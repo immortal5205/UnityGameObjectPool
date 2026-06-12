@@ -12,10 +12,8 @@
 Window → Package Manager → + → Add package from git URL...
 ```
 
-输入仓库地址（带上子路径）：
-
 ```
-https://github.com/immortal5205/UnityGameObjectPool.git?path=/Assets/Plugins/NuoYan/GameObjectPool
+git submodule add https://github.com/immortal5205/UnityGameObjectPool.git Assets/Plugins/NuoYan/GameObjectPool
 ```
 
 > 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）会在导入时自动安装。
@@ -36,7 +34,7 @@ https://github.com/immortal5205/UnityGameObjectPool.git?path=/Assets/Plugins/Nuo
 ## 目录结构
 
 ```
-GameObjectPool/
+Assets/Plugins/NuoYan/GameObjectPool/
 ├── package.json                       # UPM 包清单（支持 GitHub URL 导入）
 ├── Runtime/                          # 运行时代码
 │   ├── NuoYan.GameObjectPool.Runtime.asmdef
