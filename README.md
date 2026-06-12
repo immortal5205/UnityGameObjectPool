@@ -18,12 +18,6 @@ Window → Package Manager → + → Add package from git URL...
 https://github.com/immortal5205/UnityGameObjectPool.git?path=/Assets/Plugins/NuoYan/GameObjectPool
 ```
 
-例如项目在 TEngine 仓库中：
-
-```
-https://github.com/Alex-Rachel/TEngine.git?path=/Assets/Plugins/NuoYan/GameObjectPool
-```
-
 > 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）会在导入时自动安装。
 
 ### 核心特性
