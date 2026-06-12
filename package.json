@@ -1,0 +1,20 @@
+{
+    "name": "com.nuoyan.gameobjectpool",
+    "version": "1.0.0",
+    "displayName": "GameObjectPool",
+    "description": "高性能 Unity 游戏对象池系统。支持同步/异步加载、自动回收、过期清理、运行时统计、Editor 可视化调试，适配 YooAsset / Addressables / Resources 等任意资源管线。",
+    "unity": "2021.3",
+    "keywords": [
+        "pool",
+        "object-pool",
+        "gameobject-pool",
+        "nuoyan"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "NuoYan"
+    },
+    "dependencies": {
+        "com.cysharp.unitask": "2.5.10"
+    }
+}
