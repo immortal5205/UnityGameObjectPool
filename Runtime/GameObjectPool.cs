@@ -86,7 +86,7 @@ namespace NuoYan.Pool.GameObjectPool
 
             try
             {
-                var configAsset = Resources.Load<PoolConfigScriptableObject>("PoolConfig");
+                var configAsset = PoolConfigScriptableObject.GetInstance();
                 if (configAsset == null || configAsset.configs == null || configAsset.configs.Count == 0)
                 {
                     Debug.LogWarning("未找到对象池配置文件或配置为空，请检查 Resources/PoolConfig.asset");
@@ -119,7 +119,7 @@ namespace NuoYan.Pool.GameObjectPool
         {
             try
             {
-                var configAsset = Resources.Load<PoolConfigScriptableObject>("PoolConfig");
+                var configAsset = PoolConfigScriptableObject.GetInstance();
                 if (configAsset == null || configAsset.configs == null)
                     return;
 
