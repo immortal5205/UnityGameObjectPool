@@ -13,7 +13,7 @@ Window → Package Manager → + → Add package from git URL...
 ```
 
 ```
-git submodule add https://github.com/immortal5205/UnityGameObjectPool.git Assets/Plugins/NuoYan/GameObjectPool
+https://github.com/immortal5205/UnityGameObjectPool.git
 ```
 
 > 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）会在导入时自动安装。
