@@ -15,13 +15,13 @@ Window → Package Manager → + → Add package from git URL...
 输入仓库地址（带上子路径）：
 
 ```
-https://github.com/用户名/仓库名.git?path=/Assets/Plugins/Extension/GameObjectPool
+https://github.com/immortal5205/UnityGameObjectPool.git?path=/Assets/Plugins/NuoYan/GameObjectPool
 ```
 
 例如项目在 TEngine 仓库中：
 
 ```
-https://github.com/xxx/TEngine.git?path=/Assets/Plugins/Extension/GameObjectPool
+https://github.com/Alex-Rachel/TEngine.git?path=/Assets/Plugins/NuoYan/GameObjectPool
 ```
 
 > 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）会在导入时自动安装。
