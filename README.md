@@ -16,7 +16,7 @@ Window → Package Manager → + → Add package from git URL...
 https://github.com/immortal5205/UnityGameObjectPool.git
 ```
 
-> 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）会在导入时自动安装。
+> 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）请先导入。
 
 ### 核心特性
 
@@ -34,7 +34,7 @@ https://github.com/immortal5205/UnityGameObjectPool.git
 ## 目录结构
 
 ```
-Assets/Plugins/NuoYan/GameObjectPool/
+Assets/Packages/GameObjectPool/
 ├── package.json                       # UPM 包清单（支持 GitHub URL 导入）
 ├── Runtime/                          # 运行时代码
 │   ├── NuoYan.GameObjectPool.Runtime.asmdef
@@ -61,7 +61,7 @@ Assets/Plugins/NuoYan/GameObjectPool/
 
 ### 1. 创建配置文件
 
-右键 `Project → Create → NuoYan → PoolConfig`，创建 `PoolConfig.asset`，放入 `Resources/` 目录。
+ `Tools → NuoYan → Pool → CreatePoolConfig`，会自动在 `Resources/` 目录生成一个SO配置文件。
 
 ### 2. 设置资源文件夹
 
