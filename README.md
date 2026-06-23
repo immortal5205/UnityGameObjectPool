@@ -13,7 +13,7 @@ Window → Package Manager → + → Add package from git URL...
 ```
 
 ```
-https://github.com/immortal5205/UnityGameObjectPool.git
+https://github.com/nuoyanruoshui/UnityGameObjectPool.git
 ```
 
 > 依赖：[UniTask](https://github.com/Cysharp/UniTask)（`com.cysharp.unitask`）请先导入。
